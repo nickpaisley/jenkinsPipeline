@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{D700A949-7C35-4D50-9EE6-492ACE36C674}">
+	<children>
+		<child name="Jenkins_DT" key="{0CC69455-EA8D-4EB0-A5EC-0D7A00461F29}" path="Jenkins_DT\Jenkins_DT.mds" />
+	</children>
+	<testItems key="{79DF26D9-3551-4AFE-B9EA-3331C7FCC820}">
+		<children>
+			<testItem key="{0CC69455-EA8D-4EB0-A5EC-0D7A00461F29}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{3D295ABF-79E6-484E-B316-7056182F12A4}" />
+	<analysis key="{3381B7BF-6D9F-42E1-8C38-B428139F5E64}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
