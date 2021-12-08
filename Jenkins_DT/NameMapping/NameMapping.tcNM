@@ -313,6 +313,80 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="Move_Mouse" Key="{04FD945E-1312-490D-B255-9736EDC0023E}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Move Mouse" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_MouseWindow" Key="{8D571D02-2A00-4759-9D4D-7D37BA049592}">
+								<TypeInfo Item0="{A26B520F-9C3B-42D8-98F5-98867EA9CFA1}" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value Value="MouseWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Move Mouse" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{9A359F5B-D4FE-4440-9CCF-5C025F906A50}">
+						<TypeInfo Item0="{427DEC4E-2EF9-42EE-9F85-7142F8A8CF65}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageConsumerSalesSalesAnalysisSh" Key="{58259DC0-9828-4609-8888-6790331DC668}">
+								<Image FileName="1827931352" Left="8" Top="111" Right="1608" Bottom="908" />
+								<TypeInfo Item0="{C12ED5D0-CEED-4EF9-9141-F63463C9D56E}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://sense-demo.qlik.com/sense/app/372cbc85-f7fb-4db6-a620-9a5367845dce/sheet/VJyJ/state/analysis" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="articleScatterPlot" Key="{B7F8733E-513E-41CD-A1F8-1EFA51B2BAAB}">
+										<Image FileName="1827931352" Left="370" Top="247" Right="1025" Bottom="569" />
+										<TypeInfo Item0="{33A4A4DB-6682-488D-AC59-0E7E0BC9EE7D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Scatter plot&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/div/article[contains(@class, &apos;qv-object&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;grid&apos;]//div[4]/div/div/div/article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/div/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="canvas" Key="{64788318-181F-46C4-BF5E-C471DC3AAB80}">
+										<Image FileName="1827931352" Left="424" Top="307" Right="1012" Bottom="538" />
+										<TypeInfo Item0="{33A4A4DB-6682-488D-AC59-0E7E0BC9EE7D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;grid&apos;]//div[5]/canvas" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/canvas" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -351,6 +425,16 @@
 			<Child Name="dialogConfirmation" Owner="{0ADD5CA4-2D75-492C-B90E-DC7CDDB59FCC}">
 				<Child Name="buttonYes" Owner="{3289F52D-D154-4BCF-AE58-E6044BDE9EE2}" />
 				<Child Name="buttonNo" Owner="{06E8C64C-A26E-4575-B066-018BB8637AE8}" />
+			</Child>
+		</Child>
+		<Child Name="Move_Mouse" Owner="{04FD945E-1312-490D-B255-9736EDC0023E}">
+			<Child Name="HwndSource_MouseWindow" Owner="{8D571D02-2A00-4759-9D4D-7D37BA049592}" />
+		</Child>
+		<Child Name="browser" Owner="{9A359F5B-D4FE-4440-9CCF-5C025F906A50}">
+			<Child Name="pageConsumerSalesSalesAnalysisSh" Owner="{58259DC0-9828-4609-8888-6790331DC668}">
+				<Child Name="articleScatterPlot" Owner="{B7F8733E-513E-41CD-A1F8-1EFA51B2BAAB}">
+					<Child Name="canvas" Owner="{64788318-181F-46C4-BF5E-C471DC3AAB80}" />
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>
