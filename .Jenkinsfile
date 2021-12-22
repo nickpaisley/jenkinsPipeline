@@ -3,7 +3,6 @@ pipeline{
   stages{
     stage('QA'){
       agent{
-        label 'vm115'
         label 'VM107'
       }
       steps{
