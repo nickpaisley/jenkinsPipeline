@@ -4,6 +4,7 @@ pipeline{
     stage('QA'){
       agent{
         label 'vm115'
+        label 'VM107'
       }
       steps{
         testcompletetest credentialsId: '3d987b1f-e614-4552-97c1-48fc7e9a4f82', 
