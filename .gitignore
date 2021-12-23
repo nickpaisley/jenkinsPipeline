@@ -10,3 +10,6 @@ Log/
 
 # Ignore backup files
 *.bak
+
+#ignore .Jenkinsfile
+.Jenkinsfile
