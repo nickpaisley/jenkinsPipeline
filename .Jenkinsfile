@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('QA'){
       agent{
-        label 'VM107'
+        label ''
       }
       steps{
         testcompletetest credentialsId: '', 
